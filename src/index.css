@@ -96,7 +96,6 @@ body {
 }
 
 /* collapse button */
-/* From Uiverse.io by Yaya12085 */
 #checkbox {
   display: none;
 }
@@ -185,6 +184,7 @@ body {
 /* menu */
 .card-img-top {
   transition: all 0.3s ease;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
 }
 
 .card-img-top:hover {
@@ -193,3 +193,8 @@ body {
   cursor: pointer;
   /* Changes the cursor to pointer */
 }
+
+/* .card {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+} */

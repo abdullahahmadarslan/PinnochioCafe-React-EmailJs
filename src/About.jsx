@@ -6,7 +6,12 @@ const About = () => {
         <div id='about-us' className='about-us-main vh-100 container-fluid d-flex align-items-center justify-content-center flex-lg-nowrap flex-wrap'>
             {/* Use col-12 for small devices and col-lg-6 for large devices */}
             <div className="about-us-img col-12 col-lg-5 mx-lg-auto mt-3" >
-                <img className='img-fluid rounded-5' src={aboutus} alt="aboutus img" />
+                <img
+                    className='img-fluid rounded-5'
+                    src={aboutus}
+                    alt="aboutus img"
+                    style={{ boxShadow: '0px 4px 8px rgba(0, 0, 0, 0.4)' }} // This adds the shadow
+                />
             </div>
 
             <div className="about-us-text col-12 col-lg-5 mx-lg-auto mt-3" style={{ marginBottom: "5rem" }}>
