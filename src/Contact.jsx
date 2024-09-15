@@ -72,6 +72,7 @@ const Contact = () => {
                                 onChange={handleChange}
                                 required
                                 autoComplete='off'
+                                placeholder='Enter Your Name Here...'
                             />
                         </div>
                         <div className="mb-3">
@@ -85,6 +86,7 @@ const Contact = () => {
                                 onChange={handleChange}
                                 required
                                 autoComplete='off'
+                                placeholder='Enter Your Email Here...'
                             />
                         </div>
                         <div className="mb-3">
@@ -98,6 +100,7 @@ const Contact = () => {
                                 onChange={handleChange}
                                 required
                                 autoComplete='off'
+                                placeholder='Enter Your Message Here...'
                             ></textarea>
                         </div>
                         <button
@@ -105,8 +108,8 @@ const Contact = () => {
                             style={{ padding: "5px", zIndex: "1" }}
                             type="submit"
                         >
-                            <IoIosSend style={{ fontSize: "23px" }} className="ms-3" />
-                            <span className="me-4">Send</span>
+                            <IoIosSend style={{ fontSize: "23px", color: "#4D2B1E" }} className="ms-3" />
+                            <span className="me-4" style={{ color: "#4D2B1E" }}>Send</span>
                         </button>
                     </form>
 

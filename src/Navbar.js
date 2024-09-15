@@ -39,6 +39,7 @@ const Navbar = () => {
                     aria-controls="navbarNav"
                     aria-expanded="false"
                     aria-label="Toggle navigation"
+                    disabled
                 >
                     <input id="checkbox" type="checkbox" />
                     <label className="toggle" htmlFor="checkbox">
@@ -57,8 +58,8 @@ const Navbar = () => {
                                 style={{ padding: "5px" }}
                                 onClick={() => scrollToSection("slider")}
                             >
-                                <IoMdHome style={{ fontSize: "23px" }} className="ms-3" />
-                                <span className="me-4">Home</span>
+                                <IoMdHome style={{ fontSize: "23px", color: "#4D2B1E" }} className="ms-3" />
+                                <span className="me-4" style={{ color: "#4D2B1E" }}>Home</span>
                             </button>
                         </li>
                         <li className="nav-item  ms-auto">
@@ -67,8 +68,8 @@ const Navbar = () => {
                                 style={{ padding: "5px" }}
                                 onClick={() => scrollToSection("about-us")}
                             >
-                                <IoInformationCircleOutline style={{ fontSize: "25px" }} className="ms-3" />
-                                <span className="me-4">About</span>
+                                <IoInformationCircleOutline style={{ fontSize: "25px", color: "#4D2B1E" }} className="ms-3" />
+                                <span className="me-4" style={{ color: "#4D2B1E" }}>About</span>
                             </button>
                         </li>
                         <li className="nav-item  ms-auto">
@@ -77,8 +78,8 @@ const Navbar = () => {
                                 style={{ padding: "5px" }}
                                 onClick={() => scrollToSection("menu")}
                             >
-                                <LuCoffee style={{ fontSize: "23px" }} className="ms-3" />
-                                <span className="me-4">Menu</span>
+                                <LuCoffee style={{ fontSize: "23px", color: "#4D2B1E" }} className="ms-3" />
+                                <span className="me-4" style={{ color: "#4D2B1E" }}>Menu</span>
                             </button>
                         </li>
                         <li className="nav-item  ms-auto">
@@ -87,8 +88,8 @@ const Navbar = () => {
                                 style={{ padding: "5px" }}
                                 onClick={() => scrollToSection("contact")}
                             >
-                                <FaPhoneAlt style={{ fontSize: "20px" }} className="ms-1" />
-                                <span className="me-4">Contact</span>
+                                <FaPhoneAlt style={{ fontSize: "20px", color: "#4D2B1E" }} className="ms-1" />
+                                <span className="me-4" style={{ color: "#4D2B1E" }}>Contact</span>
                             </button>
                         </li>
                     </ul>

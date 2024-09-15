@@ -1,7 +1,7 @@
 * {
-  font-family: "Happy Monkey", system-ui !important;
-  font-weight: 400;
-  font-style: normal;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  /* This ensures the font weight is 500 */
 }
 
 body {
@@ -75,8 +75,23 @@ body {
   border-radius: 50%;
 }
 
+.nav-btn svg {
+  color: #4D2B1E !important;
+}
+
 .nav-btn:hover {
   color: white !important;
+}
+
+.nav-btn:hover {
+  background-color: #4D2B1E !important;
+  /* Optional: Change background color on hover */
+}
+
+.nav-btn:hover span,
+.nav-btn:hover svg {
+  color: white !important;
+  /* Change text and icon color to white on hover */
 }
 
 .nav-btn:before {
@@ -91,7 +106,7 @@ body {
 }
 
 .nav-btn:active:before {
-  background: #4D2B1E;
+  background: white;
   transition: background 0s;
 }
 
