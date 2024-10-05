@@ -6,8 +6,6 @@ This project was developed for a UK-based client's startup, **Pinnochio Cafe**, 
 - [Features](#features)
 - [Tech Stack](#tech-stack)
 - [Installation](#installation)
-- [Usage](#usage)
-- [File Structure](#file-structure)
 
 ## Features
 - **Responsive Design:** The website adapts to different screen sizes for an optimal user experience.
@@ -34,7 +32,7 @@ This project was developed for a UK-based client's startup, **Pinnochio Cafe**, 
    cd pinnochio-cafe
 3. Install dependencies:
    ```bash
-   npm install react-icons bootstrap emailjs-com
+   npm install
 4. Start the development server:
     ```bash
     npm start
